@@ -69,8 +69,13 @@ Para rodar em produção é necessario possuir o Docker, Docker Compose, clonar 
 ### Realizar teste
 - ```docker compose exec backend task test```
 
+Covarage HTML fica estará salvo na pasta htmlcov
+
+- ```htmlcov/index.html```
+
 ### Endpoint
-- Pagina principal do To Do List: http://localhost:8080
+- Pagina principal do To Do List
+  - http://localhost:8080
 - Docs:
   - http://127.0.0.1:8000/docs
   - http://127.0.0.1:8000/redoc
