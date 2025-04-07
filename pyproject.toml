@@ -41,7 +41,7 @@ run = 'fastapi dev todolist_fastapi/app.py'
 
 pre_test = 'task lint'
 test = 'pytest --cov=todolist_fastapi -vv'
-post_test = 'covarage html'
+post_test = 'coverage html'
 
 lint = 'ruff check . && ruff check . --diff'
 format = 'ruff check . --fix && ruff format .'
