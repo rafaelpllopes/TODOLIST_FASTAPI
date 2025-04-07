@@ -63,7 +63,9 @@ frontend
 ## Em Produção
 Para rodar em produção é necessario possuir o Docker, Docker Compose, clonar o projeto.
 
+- ```git clone https://github.com/rafaelpllopes/TODOLIST_FASTAPI.git```
 - ```docker compose up```
+
 ### Endpoint
 - Pagina principal do To Do List: http://localhost:8080
 - Docs:
