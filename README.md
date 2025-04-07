@@ -79,3 +79,25 @@ Covarage HTML fica salvo na pasta htmlcov
 - Docs:
   - http://127.0.0.1:8000/docs
   - http://127.0.0.1:8000/redoc
+
+## Estrutura do Projeto
+
+```
+.
+├── docker-compose.yml
+├── Dockerfile
+├── frontend
+│   ├── index.html
+│   ├── nginx.conf
+│   ├── script.js
+│   └── style.css
+├── poetry.lock
+├── pyproject.toml
+├── README.md
+├── tests
+│   ├── __init__.py
+│   └── test_app.py
+└── todolist_fastapi
+    ├── app.py
+    └── __init__.py
+```
