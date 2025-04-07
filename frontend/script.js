@@ -1,4 +1,4 @@
-const apiUrl = 'http://localhost:8000/tasks';
+const apiUrl = 'http://localhost:8000/tarefas';
 
 async function fetchTasks() {
     const res = await fetch(apiUrl);
