@@ -3,6 +3,7 @@ version: '3.8'
 services:
   db:
     image: mariadb
+    container_name: db_mariadb
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
@@ -16,6 +17,7 @@ services:
 
   frontend:
     image: nginx:stable
+    container_name: frontend_todolist
     depends_on:
       - backend
     volumes:
@@ -28,6 +30,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: backend_todolist
     depends_on:
       - db
     environment:
