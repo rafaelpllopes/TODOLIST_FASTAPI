@@ -66,6 +66,9 @@ Para rodar em produção é necessario possuir o Docker, Docker Compose, clonar 
 - ```git clone https://github.com/rafaelpllopes/TODOLIST_FASTAPI.git```
 - ```docker compose up```
 
+### Realizar teste
+- ```docker compose exec backend task test```
+
 ### Endpoint
 - Pagina principal do To Do List: http://localhost:8080
 - Docs:
