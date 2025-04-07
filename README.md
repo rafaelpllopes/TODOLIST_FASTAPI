@@ -69,7 +69,7 @@ Para rodar em produção é necessario possuir o Docker, Docker Compose, clonar 
 ### Realizar teste
 - ```docker compose exec backend task test```
 
-Covarage HTML fica estará salvo na pasta htmlcov
+Covarage HTML fica salvo na pasta htmlcov
 
 - ```htmlcov/index.html```
 
